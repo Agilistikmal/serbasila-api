@@ -1,0 +1,23 @@
+{
+  "name": "serbasila-api",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node app.js",
+    "start": "prisma generate && node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^5.14.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2"
+  },
+  "type": "module",
+  "devDependencies": {
+    "prisma": "^5.14.0"
+  }
+}
