@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "buildCommand": "prisma generate && vercel build",
   "builds": [
     {
       "src": "*.js",
